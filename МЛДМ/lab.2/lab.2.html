@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Lab2</title>
+    <script type="text/javascript" src="scripts\script.js"></script>
+</head>
+<body>
+<div class="content">
+    <h1 class="lab">Лабораторная работа №2</h1>
+    <form method="" action="" class="form" onsubmit="return false;">
+        <textarea class="enter" id="enter" placeholder="Введите матрицу 4х4 (без пробелов между элементами)" form="form" name="enter"></textarea>
+        <input type="button" value="Сделать рассчёт" onclick="GetData();">
+        <input type="button" value="Назад" onclick="history.back();">
+
+    </form>
+</div>
+
+<din class="primer">
+    <p><h3>Примел ввода матрицы:</h3></p>
+    <p>
+       Пример 1:<br>
+        1001 <br>
+        0110 <br>
+        0110 <br>
+        1001
+   </p>
+    <p>
+       Пример 2:<br>
+        0000<br>
+        1000<br>
+        1100<br>
+        1110
+    </p>
+</din>
+    <h2 class="by">Результаты:</h2>
+    <div class="results">
+        <span id="refl"></span> <br>
+        <span id="Sym"></span> <br>
+        <span id="tranz"></span> <br>
+        <span id="antSym"></span>
+    </div>
+
+</body>
+
+</html>
